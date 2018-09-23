@@ -1,0 +1,79 @@
+﻿[
+  ////Евроопт
+  //{
+  //  "Price": 1.15,
+  //  "Amount": 80,
+  //  "ProductName": "Сок",
+  //  "ShopId": "b869aea6-a868-4180-b226-6eeac0292525"
+  //},
+  ////Корона
+  //{
+  //  "Price": 1.05,
+  //  "Amount": 80,
+  //  "ProductName": "Сок",
+  //  "ShopId": "1e642ea1-8026-445c-977e-9b444f021554"
+  //},
+  ////Евроопт
+  //{
+  //  "Price": 1.1,
+  //  "Amount": 80,
+  //  "ProductName": "Сок",
+  //  "ShopId": "8531330a-3aba-436b-9d15-191e06fe1b6a"
+  //},
+  ////Green
+  //{
+  //  "Price": 1.12,
+  //  "Amount": 80,
+  //  "ProductName": "Сок",
+  //  "ShopId": "49104bb6-4596-4e9c-916b-f952faf19be8"
+  //},
+  ////Алми
+  //{
+  //  "Price": 1.48,
+  //  "Amount": 80,
+  //  "ProductName": "Сок",
+  //  "ShopId": "fbcfeab3-ceee-43c0-b765-b39c2a17ed19"
+  //},
+  ////Корона Техно
+  //{
+  //  "Price": 1.79,
+  //  "Amount": 80,
+  //  "ProductName": "Сок",
+  //  "ShopId": "04a97b2d-ec11-42e8-9eda-1f025065a4c7"
+  //},
+
+  ////Соседи
+  //{
+  //  "Price": 1.16,
+  //  "Amount": 80,
+  //  "ProductName": "Сок",
+  //  "ShopId": "ddff182a-7b65-4aa6-96ce-1c90e6587c72"
+  //}
+
+
+  //Корона Техно
+  {
+    "Price": 120,
+    "Amount": 12,
+    "ProductName": "Фен",
+    "ShopId": "e292b542-ada1-429e-983b-727dbdb82636"
+  },
+  {
+    "Price": 740,
+    "Amount": 5,
+    "ProductName": "Телевизор",
+    "ShopId": "e292b542-ada1-429e-983b-727dbdb82636"
+  },
+  {
+    "Price": 50.90,
+    "Amount": 12,
+    "ProductName": "Сковорода",
+    "ShopId": "e292b542-ada1-429e-983b-727dbdb82636"
+  },
+  {
+    "Price": 53.99,
+    "Amount": 5,
+    "ProductName": "Кастрюля",
+    "ShopId": "e292b542-ada1-429e-983b-727dbdb82636"
+  }
+]
