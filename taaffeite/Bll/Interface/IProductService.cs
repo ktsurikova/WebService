@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Bll.Interface
 {
-    interface IProductService
+    public interface IProductService
     {
         Product GetNearest(string name, double longitude, double latitude);
         Product GetCheapestInCity(string productName, string cityName);

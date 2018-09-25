@@ -79,5 +79,28 @@ namespace DAL
                 Name = ormProduct.Name
             };
         }
+
+        public static ORMProduct ToORMProduct(this Product product)
+        {
+            return new ORMProduct()
+            {
+                Id = product.Id,
+                Measure = product.Measure,
+                Name = product.Name
+            };
+        }
+
+        public static ORMShop ToORMShop(this Shop shop)
+        {
+            return new ORMShop()
+            {
+                Id = shop.Id,
+                Latitude = shop.Latitude,
+                Longitude = shop.Longitude,
+                Name = shop.Name,
+                Number = shop.Number,
+                Street = shop.Street
+            };
+        }
     }
 }

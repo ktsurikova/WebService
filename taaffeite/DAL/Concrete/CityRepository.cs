@@ -27,7 +27,12 @@ namespace DAL.Concrete
 
         public bool Insert(City entity)
         {
-            throw new NotImplementedException();
+            ORMCity city = entity.ToORMCity();
+            _client.Cypher
+                .Merge("(c:City {city})")
+                .WithParam("city", city)
+                .ExecuteWithoutResults();
+            return true;
         }
 
         public bool Delete(City entity)

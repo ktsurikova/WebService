@@ -29,7 +29,12 @@ namespace DAL.Concrete
 
         public bool Insert(Shop entity)
         {
-            throw new NotImplementedException();
+            ORMShop shop = entity.ToORMShop();
+            _client.Cypher
+                .Merge("(s:Shop {shop})")
+                .WithParam("shop", shop)
+                .ExecuteWithoutResults();
+            return true;
         }
 
         public bool Delete(Shop entity)

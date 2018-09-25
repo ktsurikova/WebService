@@ -51,7 +51,12 @@ namespace DAL.Concrete
 
         public bool Insert(Product entity)
         {
-            throw new NotImplementedException();
+            ORMProduct product = entity.ToORMProduct();
+            _client.Cypher
+                .Merge("(p:Product {product})")
+                .WithParam("product", product)
+                .ExecuteWithoutResults();
+            return true;
         }
 
         public bool Delete(Product entity)

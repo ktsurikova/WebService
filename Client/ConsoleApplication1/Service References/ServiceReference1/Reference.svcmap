@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6f0edc3b-55ae-4ebd-a305-497e1eb4f5a2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61509/BasicOperationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BasicOperationService.xsd" MetadataType="Schema" ID="6bd52e33-f6d0-4047-9787-3f8f6ac62e1d" SourceId="1" SourceUrl="http://localhost:61509/BasicOperationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="BasicOperationService1.xsd" MetadataType="Schema" ID="42268328-da67-4ae5-9429-e02d8225df5c" SourceId="1" SourceUrl="http://localhost:61509/BasicOperationService.svc?xsd=xsd3" />
+    <MetadataFile FileName="BasicOperationService2.xsd" MetadataType="Schema" ID="8b013bc6-83a9-41f3-b8e9-5e899144fb34" SourceId="1" SourceUrl="http://localhost:61509/BasicOperationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BasicOperationService3.xsd" MetadataType="Schema" ID="a965fb79-4b8d-4e2e-a36e-000d93f5af0a" SourceId="1" SourceUrl="http://localhost:61509/BasicOperationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="BasicOperationService.disco" MetadataType="Disco" ID="1653651f-1ce3-4771-b33f-be9433469652" SourceId="1" SourceUrl="http://localhost:61509/BasicOperationService.svc?disco" />
+    <MetadataFile FileName="BasicOperationService.wsdl" MetadataType="Wsdl" ID="07b66e02-2625-468e-b7e2-7e29e526ece0" SourceId="1" SourceUrl="http://localhost:61509/BasicOperationService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -7,7 +7,7 @@ using DAL.Interface.DTO;
 
 namespace Bll.Interface
 {
-    interface IAdministrationService
+    public interface IAdministrationService
     {
         bool AddProduct(Product product);
         bool AddShop(Shop shop);

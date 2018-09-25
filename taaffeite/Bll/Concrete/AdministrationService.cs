@@ -18,31 +18,33 @@ namespace Bll.Concrete
         private readonly IProductRepository _productRepository;
         private const int ItemsMax = 7;
 
-        public AdministrationService()
+        public AdministrationService(IProductRepository productRepository, IShopRepository shopRepository,
+            ICityRepository cityRepository, ICountryRepository countryRepository)
         {
-            _shopRepository = new ShopRepository();
-            _countryRepository = new CountryRepository();
-            _cityRepository = new CityRepository();
+            _shopRepository = shopRepository;
+            _countryRepository = countryRepository;
+            _cityRepository = cityRepository;
+            _productRepository = productRepository;
         }
 
         public bool AddProduct(Product product)
         {
-            throw new NotImplementedException();
+            return _productRepository.Insert(product);
         }
 
         public bool AddShop(Shop shop)
         {
-            throw new NotImplementedException();
+            return _shopRepository.Insert(shop);
         }
 
         public bool AddCity(City city)
         {
-            throw new NotImplementedException();
+            return _cityRepository.Insert(city);
         }
 
         public bool AddCountry(Country country)
         {
-            throw new NotImplementedException();
+            return _countryRepository.Insert(country);
         }
 
         public void ConnectProductShop(Guid productId, Guid shopId, decimal price, int amount)

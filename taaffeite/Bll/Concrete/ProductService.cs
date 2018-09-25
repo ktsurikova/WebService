@@ -15,9 +15,9 @@ namespace Bll.Concrete
         private readonly IProductRepository _productRepository;
         private const int ItemsMax = 7;
 
-        public ProductService()
+        public ProductService(IProductRepository productRepository)
         {
-            _productRepository = new ProductRepository();
+            _productRepository = productRepository;
         }
 
         public Product GetNearest(string name, double longitude, double latitude)

@@ -41,7 +41,7 @@ namespace DAL.Concrete
         public bool Insert(Country entity)
         {
             _client.Cypher
-                .Create("(country:Country {c})")
+                .Merge("(country:Country {c})")
                 .WithParam("c", entity.ToORMCountry())
                 .ExecuteWithoutResults();
 
